@@ -10,17 +10,17 @@ const ServicesStyled = styled.div`
   background-color: #0C0B0C;
   color: White;
   .grid {
-    display: grid;
-    justify-items: center;
-    grid-template-columns: repeat(2, 1fr);
-    padding-bottom: 50px;
+    
   }
   img {
     margin-top: -40px;
   }
+  .fishbowl {
+    display: none;
+  }
   .services-div {
     text-align: left;
-    margin: 40px 100px 0 0;
+    padding: 40px 10px;
     p {
       margin: 40px 0;
       color: #C1BABB;
@@ -38,7 +38,7 @@ const ServicesStyled = styled.div`
     grid-gap: 20px;
   }
   .card {
-    padding: 20px;
+    padding: 10px;
     background-color: white;
     color: #0C0B0C;
     p {
@@ -54,12 +54,29 @@ const ServicesStyled = styled.div`
     background-color: #0cacbc;
     margin-top: 20px;
   }
+  @media screen and (min-width: 1024px) {
+    .services-div {
+      margin: 40px 100px 0 0;
+    }
+    .fishbowl {
+      display: block;
+    }
+    .grid {
+      display: grid;
+      justify-content: center;
+      grid-template-columns: repeat(2, 1fr);
+      padding-bottom: 50px;
+    }
+    .card {
+      padding: 20px;
+    }
+  }
 `
 function Services() {
   return (
     <ServicesStyled>
       <div className="grid">
-        <img src={FishBowl} alt="pecera" width="500px"/>
+        <img src={FishBowl} alt="pecera" width="500px" className="fishbowl"/>
         <div className="services-div">
           <h1 className="title">
             Conozca los <span>servicios</span> que ofrecemos para tí

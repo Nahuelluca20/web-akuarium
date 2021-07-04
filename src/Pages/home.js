@@ -12,17 +12,16 @@ const HomeStyled = styled.div`
   margin: 50px 0 0 0;
   color: #0C0B0C;
   .title {
-    font-size: 50px;
+    font-size: 35px;
   }
   .home {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    justify-items: end;
-    align-items: center;
+    justify-self: center;
+    width: 100%;
   }
   .home-div {
     text-align: start;
-    margin-left: 100px;
+    padding: 0 10px;
     .title {
       color: #0C0B0C;
       margin: 0;
@@ -39,21 +38,24 @@ const HomeStyled = styled.div`
       }
     }
   }
+  .home-img {
+    width: 100%;
+  }
   .description {
-    font-size: 20px;
+    font-size: 15px;
     p {
       margin: 0;
       color: #69685E;
-      line-height: 30px;
+      line-height: 20px;
     }
   }
   button {
     font-size: 15px;
-    padding: 12px 40px;
-    margin-right: 20px;
+    padding: 12px 20px;
     cursor: pointer;
   }
   .btn-1 {
+    margin-right: 20px;
     font-weight: 500;
     transition-delay: 0.1s;
     border: solid 2px #0C0B0C;
@@ -77,6 +79,33 @@ const HomeStyled = styled.div`
   }
   .separator {
     height: 100px;
+  }
+
+  @media screen and (min-width: 1024px) {
+    .home {
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: end;
+    align-items: center;
+    }
+    .home-div {
+      padding: 0;
+      margin-left: 100px;
+    }
+    .home-img {
+      width: 570px;
+    }
+    .title {
+    font-size: 50px;
+    }
+    .description {
+    font-size: 20px;
+      p {
+        line-height: 30px;
+      }
+    }
+    button {
+      padding: 12px 40px;
+    }
   }
 `
 function Home() {
@@ -104,7 +133,7 @@ function Home() {
             <button className="btn-2">Mira nuestro trabajo</button>
           </div>
         </div>
-        <img className="home-img" src={HomeImage} alt="iamge" width="570px"/>
+        <img className="home-img" src={HomeImage} alt="home"/>
       </section>
       <div className="separator"></div>
       <Services />

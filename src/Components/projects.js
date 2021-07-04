@@ -4,11 +4,7 @@ import ProjectsImg from '../Images/projects.png'
 
 const ProjectsStyled = styled.div`
   .grid {
-    margin: 50px;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    justify-items: center;
-    align-items: center;
+    padding: 40px 10px;
   }
   .projects-div {
     text-align: start;
@@ -33,6 +29,23 @@ const ProjectsStyled = styled.div`
     color: #0C0B0C;
     background-color: white;
   }
+  .projects-img {
+    width: 100%;
+  }
+
+  @media screen and (min-width: 1024px) {
+    .grid {
+      padding: 0;
+      margin: 50px;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      justify-items: center;
+      align-items: center;
+    }
+    .projects-img {
+      width: 500px;
+    }
+  }
 `
 function Projects() {
   return (
@@ -53,7 +66,7 @@ function Projects() {
             Ver proyectos
           </button>
         </div>
-        <img src={ProjectsImg} alt="proyectos"width="500px"/>
+        <img src={ProjectsImg} alt="proyectos" className="projects-img"/>
       </div>
     </ProjectsStyled>
   )

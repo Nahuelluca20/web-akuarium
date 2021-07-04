@@ -12,15 +12,18 @@ import {
   Link
 } from "react-router-dom";
 import { FaFacebookF, FaInstagram } from 'react-icons/fa'
-import { GrMail } from 'react-icons/gr'
+import { GrMail, GrMenu } from 'react-icons/gr'
 
 
 const NavStyled = styled.div`
-  nav {
-    padding: 30px 50px;
+  .desktop-nav {
+    display: none;
+  }
+  .mobile-nav {
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    padding: 10px;
+    justify-content: space-between;
   }
   .link {
     display: none;
@@ -35,6 +38,15 @@ const NavStyled = styled.div`
     grid-column-gap: 20px;
   }
   @media screen and (min-width: 1024px) {
+    .desktop-nav {
+      padding: 30px 50px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .mobile-nav {
+      display: none;
+    }
     .link {
       display: inline-block;
     }
@@ -66,7 +78,7 @@ function Nav() {
   return (
     <NavStyled>
       <Router>
-        <nav>
+        <nav className="desktop-nav">
           <img src={logo} alt="logo" width="94px" height="29px"/>
           <ul>
             {
@@ -83,6 +95,12 @@ function Nav() {
             <GrMail size="18px" style={{cursor:'pointer'}}/>
           </div>
         </nav>
+        
+        <nav className="mobile-nav">
+          <img src={logo} alt="logo" width="94px" height="29px"/>
+          <GrMenu size="30px"/>
+        </nav>
+
 
         <Switch>
           {

@@ -8,11 +8,7 @@ const MapsStyled = styled.div`
   background-color: #0C0B0C;
   color: White;
   .grid {
-    padding: 100px 50px;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    justify-items: center;
-    align-items: flex-start;
+    padding: 50px 10px;
   }
   .maps-div {
     text-align: start;
@@ -37,6 +33,24 @@ const MapsStyled = styled.div`
     padding: 5px;
     color: #0C0B0C;
     margin-right: 30px;
+  }
+  .map-img {
+    margin-top: 20px;
+    width: 100%;
+  }
+
+  @media screen and (min-width: 1024px) {
+    .grid {
+      padding: 100px 50px;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      justify-items: center;
+      align-items: flex-start;
+    }
+    .map-img {
+      margin-top: 0px;
+      width: auto;
+    }
   }
 `
 function Maps() {
@@ -64,7 +78,7 @@ function Maps() {
             </a>
           </div>
         </div>
-        <img src={Map} alt="mapa"/>
+        <img src={Map} alt="mapa" className="map-img"/>
       </div>
     </MapsStyled>
   )
