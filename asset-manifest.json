@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/web-akuarium/static/css/main.b58ef00a.chunk.css",
-    "main.js": "/web-akuarium/static/js/main.1e4f9c8c.chunk.js",
-    "main.js.map": "/web-akuarium/static/js/main.1e4f9c8c.chunk.js.map",
+    "main.js": "/web-akuarium/static/js/main.8f24e65e.chunk.js",
+    "main.js.map": "/web-akuarium/static/js/main.8f24e65e.chunk.js.map",
     "runtime-main.js": "/web-akuarium/static/js/runtime-main.b3ee124f.js",
     "runtime-main.js.map": "/web-akuarium/static/js/runtime-main.b3ee124f.js.map",
     "static/js/2.29bdac54.chunk.js": "/web-akuarium/static/js/2.29bdac54.chunk.js",
@@ -21,6 +21,6 @@
     "static/js/runtime-main.b3ee124f.js",
     "static/js/2.29bdac54.chunk.js",
     "static/css/main.b58ef00a.chunk.css",
-    "static/js/main.1e4f9c8c.chunk.js"
+    "static/js/main.8f24e65e.chunk.js"
   ]
 }
