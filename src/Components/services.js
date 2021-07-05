@@ -9,9 +9,6 @@ import { SiMaterialdesign } from 'react-icons/si'
 const ServicesStyled = styled.div`
   background-color: #0C0B0C;
   color: White;
-  .grid {
-    
-  }
   img {
     margin-top: -40px;
   }
@@ -59,11 +56,11 @@ const ServicesStyled = styled.div`
       margin: 40px 100px 0 0;
     }
     .fishbowl {
-      display: block;
+      display: flex;
     }
     .grid {
       display: grid;
-      justify-content: center;
+      justify-items: center;
       grid-template-columns: repeat(2, 1fr);
       padding-bottom: 50px;
     }

@@ -56,22 +56,22 @@ function Nav() {
   const navItems = [
     {
       name: 'Home',
-      route: '/',
+      route: `${process.env.PUBLIC_URL}/`,
       component: <Home />
     },
     {
       name: 'Productos',
-      route: '/productos',
+      route: `${process.env.PUBLIC_URL}/productos`,
       component: <Products />
     },
     {
       name: 'Quiénes Somos?',
-      route: '/about',
+      route: `${process.env.PUBLIC_URL}/about`,
       component: <About />
     },
     {
       name: 'Contacto',
-      route: '/contacto',
+      route: `${process.env.PUBLIC_URL}/contacto`,
       component: <Contact />
     }
   ]
