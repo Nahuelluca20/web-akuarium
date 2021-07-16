@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/web-akuarium/static/css/main.e0e98540.chunk.css",
-    "main.js": "/web-akuarium/static/js/main.7f716d27.chunk.js",
-    "main.js.map": "/web-akuarium/static/js/main.7f716d27.chunk.js.map",
+    "main.js": "/web-akuarium/static/js/main.c661a7d2.chunk.js",
+    "main.js.map": "/web-akuarium/static/js/main.c661a7d2.chunk.js.map",
     "runtime-main.js": "/web-akuarium/static/js/runtime-main.d5790862.js",
     "runtime-main.js.map": "/web-akuarium/static/js/runtime-main.d5790862.js.map",
-    "static/js/2.b2d896d9.chunk.js": "/web-akuarium/static/js/2.b2d896d9.chunk.js",
-    "static/js/2.b2d896d9.chunk.js.map": "/web-akuarium/static/js/2.b2d896d9.chunk.js.map",
+    "static/js/2.1911cfd5.chunk.js": "/web-akuarium/static/js/2.1911cfd5.chunk.js",
+    "static/js/2.1911cfd5.chunk.js.map": "/web-akuarium/static/js/2.1911cfd5.chunk.js.map",
     "static/js/3.7bf72d5a.chunk.js": "/web-akuarium/static/js/3.7bf72d5a.chunk.js",
     "static/js/3.7bf72d5a.chunk.js.map": "/web-akuarium/static/js/3.7bf72d5a.chunk.js.map",
     "index.html": "/web-akuarium/index.html",
     "static/css/main.e0e98540.chunk.css.map": "/web-akuarium/static/css/main.e0e98540.chunk.css.map",
-    "static/js/2.b2d896d9.chunk.js.LICENSE.txt": "/web-akuarium/static/js/2.b2d896d9.chunk.js.LICENSE.txt",
+    "static/js/2.1911cfd5.chunk.js.LICENSE.txt": "/web-akuarium/static/js/2.1911cfd5.chunk.js.LICENSE.txt",
     "static/media/about-img.53b76adb.jpg": "/web-akuarium/static/media/about-img.53b76adb.jpg",
     "static/media/background-home.657d9df2.png": "/web-akuarium/static/media/background-home.657d9df2.png",
     "static/media/fishbowl.54871dfe.jpg": "/web-akuarium/static/media/fishbowl.54871dfe.jpg",
@@ -25,8 +25,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.d5790862.js",
-    "static/js/2.b2d896d9.chunk.js",
+    "static/js/2.1911cfd5.chunk.js",
     "static/css/main.e0e98540.chunk.css",
-    "static/js/main.7f716d27.chunk.js"
+    "static/js/main.c661a7d2.chunk.js"
   ]
 }
