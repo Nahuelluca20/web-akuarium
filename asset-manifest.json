@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/web-akuarium/static/css/main.e0e98540.chunk.css",
-    "main.js": "/web-akuarium/static/js/main.c661a7d2.chunk.js",
-    "main.js.map": "/web-akuarium/static/js/main.c661a7d2.chunk.js.map",
+    "main.js": "/web-akuarium/static/js/main.64d12e83.chunk.js",
+    "main.js.map": "/web-akuarium/static/js/main.64d12e83.chunk.js.map",
     "runtime-main.js": "/web-akuarium/static/js/runtime-main.d5790862.js",
     "runtime-main.js.map": "/web-akuarium/static/js/runtime-main.d5790862.js.map",
     "static/js/2.1911cfd5.chunk.js": "/web-akuarium/static/js/2.1911cfd5.chunk.js",
@@ -16,6 +16,7 @@
     "static/media/background-home.657d9df2.png": "/web-akuarium/static/media/background-home.657d9df2.png",
     "static/media/fishbowl.54871dfe.jpg": "/web-akuarium/static/media/fishbowl.54871dfe.jpg",
     "static/media/maps.81335d2f.png": "/web-akuarium/static/media/maps.81335d2f.png",
+    "static/media/nosotros-img.f4945d5c.jpeg": "/web-akuarium/static/media/nosotros-img.f4945d5c.jpeg",
     "static/media/pecera-1.1df3ed5d.jpg": "/web-akuarium/static/media/pecera-1.1df3ed5d.jpg",
     "static/media/pecera-2.f108f21f.jpg": "/web-akuarium/static/media/pecera-2.f108f21f.jpg",
     "static/media/pecera-3.735171a3.jpg": "/web-akuarium/static/media/pecera-3.735171a3.jpg",
@@ -27,6 +28,6 @@
     "static/js/runtime-main.d5790862.js",
     "static/js/2.1911cfd5.chunk.js",
     "static/css/main.e0e98540.chunk.css",
-    "static/js/main.c661a7d2.chunk.js"
+    "static/js/main.64d12e83.chunk.js"
   ]
 }
